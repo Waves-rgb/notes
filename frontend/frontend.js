@@ -8,16 +8,20 @@ app.use(require('express').static(path.join(__dirname, 'public')));
 global.nextPrepared = false;
 
 (async () => {
-    console.log('Building Next App')
+    console.log('Building Next.js app...')
     await nextApp.prepare()
     global.nextPrepared = true;
-    console.log('Next App Built')
-    app.use((req, res)=>{handle(req, res)})
+    console.log('Next.js app built!')
+    app.use((req, res, next)=>{
+        if (!req.path.startsWith('/api'))
+            return handle(req, res)
+        next()
+    })
 })()
 
 setTimeout(()=>{
     if(!nextPrepared) {
-        console.log('Next App Build Failed')
+        console.log('Next.js build failed!')
         process.exit(1)
     }
 }, 30000);

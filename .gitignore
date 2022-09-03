@@ -1,6 +1,7 @@
-*/.env
-./package-lock.json
+/.env
+/package-lock.json
 
-./frontend/.next
-.idea
-./node_modules
+/frontend/.next
+/.idea
+/node_modules
+/frontend/.next/

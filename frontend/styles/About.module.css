@@ -1,0 +1,45 @@
+.section {
+    padding-top: 3%;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.back {
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: #fff;
+}
+
+.main hr {
+    width: 20%;
+    border: 1px solid #ffffff;
+}
+
+.main p {
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    padding: 0 10%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.textContainer code {
+    background-color: #0c0c10;
+    color: #ffffff;
+    padding: 0 5px;
+    border-radius: 5px;
+}

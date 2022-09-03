@@ -1,0 +1,5 @@
+*/.env
+package-lock.json
+
+frontend/.next
+node_modules

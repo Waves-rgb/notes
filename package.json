@@ -12,6 +12,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "prod": "cd frontend && npm run build && cd .. && node index.js"
+    "prod": "cd frontend && next build && cd .. && node index.js"
   }
 }

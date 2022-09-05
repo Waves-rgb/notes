@@ -4,10 +4,10 @@ A secure, privacy-oriented, web-based note-taking app.
 ## Features
 * [Markdown](https://en.wikipedia.org/wiki/Markdown) support
 * Encryption
-* No personal information is required
+* No personal information
 * No tracking
 * No ads
-* Limited analytics (error tracking and usage). No personal data is collected
+* Limited analytics (error reporting and visitor count)
 * Open-source
 * Free
 

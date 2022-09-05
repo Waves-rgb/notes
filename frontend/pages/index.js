@@ -13,6 +13,7 @@ export default function Home() {
             <main className={styles.main}>
                 <h1 className={styles.title}>
                     WackNotes
+                    <hr />
                 </h1>
                 <p className={styles.description}>
                     A secure, privacy-oriented, web-based note taking app.

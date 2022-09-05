@@ -10,21 +10,19 @@
 .back {
     font-size: 20px;
     position: absolute;
+    color: #ccc;
     top: 5%;
     left: 5%;
-    color: #fff;
 }
 
 .main hr {
     width: 20%;
-    border: 1px solid #ffffff;
+    border-bottom: 1px solid #ccc;
 }
 
 .main p {
     font-size: 23px;
-    color: #ffffff;
-    text-align: center;
-    align-content: center;
+    text-align: justify;
     width: 75%;
     padding: 0 10%;
 }
@@ -35,11 +33,4 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.textContainer code {
-    background-color: #0c0c10;
-    color: #ffffff;
-    padding: 0 5px;
-    border-radius: 5px;
 }

@@ -1,6 +1,6 @@
 html,
 body {
-    color: #fff;
+    color: #cccccc;
     background: #161821;
     padding: 0;
     margin: 0;
@@ -29,4 +29,11 @@ a :hover {
         color: white;
         background: black;
     }
+}
+
+code {
+    background-color: #08080a;
+    color: #ffffff;
+    padding: 0 5px;
+    border-radius: 5px;
 }
